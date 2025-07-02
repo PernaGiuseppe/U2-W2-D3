@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$fontsizeA: 1.5em;
+$fontsizeTitle: 3em;
+$fontsizeP: 1em;
+$fontsizeButton: 1.3em;
+@mixin title-big {
+  font-size: $fontsizeTitle;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  a {
+    font-size: $fontsizeA;
+  }
+  h1 {
+    @include title-big();
+  }
+  p {
+    font-size: $fontsizeP;
+  }
+  button {
+    font-size: $fontsizeButton;
+  }
+}

@@ -1,0 +1,300 @@
+/* CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  color: #f4f4f4;
+}
+body header {
+  background-color: #bf4080;
+}
+body main {
+  background-color: #640fc5;
+}
+body main article {
+  background-color: white;
+}
+
+.btn-first {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0e6cff;
+}
+.btn-first:hover {
+  opacity: 0.5;
+}
+
+.btn-second {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ff8700;
+}
+.btn-second:hover {
+  opacity: 0.5;
+}
+
+.btn-third {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+}
+.btn-third:hover {
+  opacity: 0.5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body a {
+  font-size: 1.5em;
+}
+body h1 {
+  font-size: 3em;
+}
+body p {
+  font-size: 1em;
+}
+body button {
+  font-size: 1.3em;
+}
+
+.hero-main-image {
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid #eee;
+}
+
+.grid-image {
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.p-block-sm {
+  padding-block: 5px;
+}
+
+.p-block-normal {
+  padding-block: 10px;
+}
+
+.p-block-md {
+  padding-block: 15px;
+}
+
+.p-block-lg {
+  padding-block: 20px;
+}
+
+.p-block-xl {
+  padding-block: 25px;
+}
+
+.p-block-xxl {
+  padding-block: 30px;
+}
+
+.p-inline-sm {
+  padding-inline: 5px;
+}
+
+.p-inline-normal {
+  padding-inline: 10px;
+}
+
+.p-inline-md {
+  padding-inline: 15px;
+}
+
+.p-inline-lg {
+  padding-inline: 20px;
+}
+
+.p-inline-xl {
+  padding-inline: 25px;
+}
+
+.p-inline-xxl {
+  padding-inline: 30px;
+}
+
+.m-block-sm {
+  margin-block: 5px;
+}
+
+.m-block-normal {
+  margin-block: 10px;
+}
+
+.m-block-md {
+  margin-block: 15px;
+}
+
+.m-block-lg {
+  margin-block: 20px;
+}
+
+.m-block-xl {
+  margin-block: 25px;
+}
+
+.m-block-xxl {
+  margin-block: 30px;
+}
+
+.m-inline-sm {
+  margin-inline: 5px;
+}
+
+.m-inline-normal {
+  margin-inline: 10px;
+}
+
+.m-inline-md {
+  margin-inline: 15px;
+}
+
+.m-inline-lg {
+  margin-inline: 20px;
+}
+
+.m-inline-xl {
+  margin-inline: 25px;
+}
+
+.m-inline-xxl {
+  margin-inline: 30px;
+}/*# sourceMappingURL=style.css.map */

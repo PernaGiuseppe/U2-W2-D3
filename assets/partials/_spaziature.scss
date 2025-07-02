@@ -1,0 +1,26 @@
+$sizes: (
+  sm: 5px,
+  normal: 10px,
+  md: 15px,
+  lg: 20px,
+  xl: 25px,
+  xxl: 30px,
+);
+$displays: (
+  block: block,
+  inline: inline,
+);
+@each $display-name, $display-index in $displays {
+  @each $size-name, $size-index in $sizes {
+    .p-#{$display-name}-#{$size-name} {
+      padding-#{$display-index}: $size-index;
+    }
+  }
+}
+@each $display-name, $display-index in $displays {
+  @each $size-name, $size-index in $sizes {
+    .m-#{$display-name}-#{$size-name} {
+      margin-#{$display-index}: $size-index;
+    }
+  }
+}

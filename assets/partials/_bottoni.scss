@@ -1,0 +1,20 @@
+$buttons-colors: (
+  first: #0e6cff,
+  second: #ff8700,
+  third: #4caf50,
+);
+@mixin button-structure {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+@each $name, $color in $buttons-colors {
+  .btn-#{$name} {
+    @include button-structure;
+    background-color: $color;
+  }
+}

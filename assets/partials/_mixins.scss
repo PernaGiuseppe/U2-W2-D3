@@ -1,0 +1,32 @@
+$shadow-color-light: rgba(0, 0, 0, 0.1);
+$shadow-color-medium: rgba(0, 0, 0, 0.2);
+$shadow-color-strong: rgba(0, 0, 0, 0.3);
+$border-color-light: #eee;
+$default-border-radius: 8px;
+
+@mixin floating(
+  $radius: $default-border-radius,
+  $shadow: 0 4px 8px $shadow-color-light,
+
+  $border: none
+) {
+  border-radius: $radius;
+  box-shadow: $shadow;
+  border: $border;
+}
+
+.hero-main-image {
+  @include floating(
+    $shadow: 0 6px 12px $shadow-color-medium,
+
+    $border: 1px solid $border-color-light
+  );
+}
+
+.grid-image {
+  @include floating(
+    $shadow: 0 8px 16px $shadow-color-strong,
+
+    $border: none
+  );
+}
